@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/RelativeLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    
+
+    <TextView
+        android:id="@+id/ManageZones"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="14dp"
+        android:layout_marginTop="14dp"
+        android:textAppearance="?android:attr/textAppearanceMedium" android:text="@string/txt_manage_zones"/>
+
+    <Spinner
+        android:id="@+id/zones"
+        android:layout_width="181dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ManageZones"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="17dp" />
+
+    <Spinner
+        android:id="@+id/options"
+        android:layout_width="184dp"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/zones"
+        android:layout_alignRight="@+id/zones"
+        android:layout_below="@+id/zones" />
+
+    <TextView
+        android:id="@+id/txtoptions"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/options"
+        android:layout_alignBottom="@+id/options"
+        android:layout_alignLeft="@+id/ManageZones" android:text="@string/lbl_options"/>
+
+    <TextView
+        android:id="@+id/txtzones"
+        android:layout_width="63dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/zones"
+        android:layout_alignBottom="@+id/zones"
+        android:layout_alignLeft="@+id/ManageZones" android:text="@string/lbl_zones"/>
+
+    <Button
+        android:id="@+id/button1"
+        style="@style/MyDefaultTextAppearance"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/options"
+        android:layout_below="@+id/options"
+        android:layout_marginTop="48dp"
+        android:minWidth="80dp"
+        android:text="@string/btn_go_back" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/button1"
+        android:layout_alignRight="@+id/options"
+        android:text="@string/btn_ok" android:minWidth="80dp"/>
+
+</RelativeLayout>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Hello World, GeomobileActivity!</string>
+    <string name="app_name">Geomobile</string>
+    <string name="btn_go_back">Return</string>
+    <string name="btn_ok">Ok</string>
+    <string name="txt_manage_zones">Manage Zones:</string>
+    <string name="lbl_zones">Zones:</string>
+    <string name="lbl_options">Options:</string>
+    <string name="opt_manage_zone">Manage Zones</string>
+    <string name="opt_exp_data">Expand Data</string>
+    <string name="btn_home">Home</string>    
+    <string name="txt_username">Username</string>
+    <string name="txt_password">Password</string>
+    <string name="txt_name">Name</string>
+    
+</resources>
